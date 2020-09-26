@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "api": "cd api-test && npm install && node api",
-    "start": "npm install && gulp && npm run api"
+    "start": "gulp && npm run api"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +13,7 @@
     "auto-require": "^3.0.2",
     "browser-sync": "~2.18.5",
     "del": "~2.2.2",
-    "gulp": "~3.9.1",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "~3.1.1",
     "gulp-clean-css": "~2.2.1",
     "gulp-cli": "~1.2.2",
